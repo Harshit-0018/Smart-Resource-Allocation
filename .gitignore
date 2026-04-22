@@ -1,0 +1,38 @@
+# ─── Dependencies ─────────────────────────────
+node_modules/
+frontend/node_modules/
+functions/node_modules/
+
+# ─── Build outputs ────────────────────────────
+frontend/dist/
+backend/target/
+
+# ─── Environment & secrets ────────────────────
+.env
+.env.local
+.env.*.local
+frontend/.env
+serviceAccountKey.json
+backend/src/main/resources/serviceAccountKey.json
+
+# ─── IDE ──────────────────────────────────────
+.idea/
+.vscode/
+*.iml
+*.swp
+
+# ─── OS ───────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── Firebase ─────────────────────────────────
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+
+# ─── Docker ───────────────────────────────────
+docker-compose.override.yml
+
+# ─── Logs ─────────────────────────────────────
+*.log

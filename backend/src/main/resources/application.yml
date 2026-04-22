@@ -1,0 +1,23 @@
+server:
+  port: 8080
+
+firebase:
+  service-account-path: /app/serviceAccountKey.json
+  project-id: ${FIREBASE_PROJECT_ID:your-firebase-project-id}
+
+vertex-ai:
+  project: ${GCP_PROJECT_ID:your-gcp-project-id}
+  location: us-central1
+  embedding-model: text-embedding-004
+
+google:
+  maps-api-key: ${MAPS_API_KEY:}
+  translate-api-key: ${TRANSLATE_API_KEY:}
+
+pipeline:
+  secret: ${PIPELINE_SECRET:change-me-in-production}
+
+spring:
+  security:
+    filter:
+      order: 1
