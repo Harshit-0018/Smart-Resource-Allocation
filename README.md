@@ -156,4 +156,4 @@ finalScore = 0.40 × skillScore
 
 ## 📄 License
 
-MIT © Smart Resource Allocation Team
+
