@@ -154,6 +154,5 @@ finalScore = 0.40 × skillScore
 - **Availability**: Date overlap × time slot fraction
 - **Impact**: `min(1.0, completedTasks × avgRating / 25)`
 
-## 📄 License
 
 
