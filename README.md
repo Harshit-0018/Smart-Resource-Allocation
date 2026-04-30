@@ -1,11 +1,11 @@
 # Smart-Resource-Allocation
-=======
-# 🎯 Smart Resource Allocation
+
+#  Smart Resource Allocation
 
 > **Google Solution Challenge Hackathon**
 > A three-portal web platform that digitises community needs, visualises urgency on a heatmap, and uses Vertex AI to match volunteers to tasks.
 
-## 🏗️ Architecture
+##  Architecture
 
 | Layer | Technology |
 |-------|-----------|
@@ -41,7 +41,7 @@ smart-resource-allocation/
 └── .github/workflows/ # CI/CD pipelines
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -132,7 +132,7 @@ cd backend && mvn spring-boot:run
 cd functions && npm run serve
 ```
 
-## 🎭 Three Portals
+##  Three Portals
 
 | Portal | Route | Role |
 |--------|-------|------|
@@ -140,7 +140,7 @@ cd functions && npm run serve
 | **Volunteer** | `/volunteer/*` | Profile setup, browse tasks, accept matches, earn rewards |
 | **Admin** | `/admin/*` | Approve NGOs/volunteers, trigger AI matching, audit logs |
 
-## 🤖 AI Matching Algorithm
+##  AI Matching Algorithm
 
 ```
 finalScore = 0.40 × skillScore
@@ -155,4 +155,4 @@ finalScore = 0.40 × skillScore
 - **Impact**: `min(1.0, completedTasks × avgRating / 25)`
 
 
-
+Made by Harshit..
