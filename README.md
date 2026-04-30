@@ -1,7 +1,5 @@
 # Smart-Resource-Allocation
 
-#  Smart Resource Allocation
-
 > **Google Solution Challenge Hackathon**
 > A three-portal web platform that digitises community needs, visualises urgency on a heatmap, and uses Vertex AI to match volunteers to tasks.
 
